@@ -58,6 +58,7 @@ jobs:
 dockerコンテナを起動
 → docker imageはpandocが公式用意したもの
 `args: README.md -s -o output/resume.docx` : 変換対象　変換先/変換後ファイル名.形式
+`- uses: actions/upload-artifact@master` : GitHubActionsのartifactとして指定ファイルをアップロードする。
 
 # よく分からなかったけれど、実施したい方
 1. 下記リポジトリをclone
