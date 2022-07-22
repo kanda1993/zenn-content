@@ -1,0 +1,13 @@
+version: '3'
+services:
+  zenn:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: zenn-cli
+    tty: true
+    volumes:
+      - ../:/workspace
+    ports:
+      - "3000:3000"
+      - "8000:8000"

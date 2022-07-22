@@ -1,0 +1,8 @@
+{
+  "name": "zenn-cli",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "zenn",
+  "workspaceFolder": "/workspace",
+  "extensions": ["negokaz.zenn-editor"],
+  "forwardPorts": [3000]
+}
