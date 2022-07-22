@@ -4,9 +4,8 @@
 
 # devcontainer
 zenn-cliをインストールした環境
-### must <br>
+### must
 * docker 
-<br>
 ### 操作
 * open folder：cloneした本PJを開く<br>
   vscode ショートカットキー: command + P<br>
