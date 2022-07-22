@@ -3,7 +3,7 @@ title: "GitHubActionsを使って、Readme.mdからdocxに変換"
 emoji: "🦁"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["GitHubActions","pandoc","readme"]
-published: false
+published: true
 ---
 
 # 目的
